@@ -97,6 +97,22 @@
         "logo_item_border": ""
       }
     },
+    "image_with_text_overlay_DPfE7U": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "fill",
+        "image": "shopify://shop_images/Dents_blanches_en_moins_d_une_minute.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -153,6 +169,7 @@
   "order": [
     "image_with_text_overlay_8gHxgM",
     "logo_list_BgBGiW",
+    "image_with_text_overlay_DPfE7U",
     "faq"
   ]
 }
