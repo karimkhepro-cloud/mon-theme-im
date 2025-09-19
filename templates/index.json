@@ -143,6 +143,19 @@
             "link_style": "link"
           }
         },
+        "item_JGrQFV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/169412229-1744023666.1068.jpg",
+            "column_size": "3",
+            "title": "Amanda.O",
+            "heading_tag": "h4",
+            "content": "<p>Brosse à dents fantastique ! J'étais sceptique au début, mais avec des mouvements lents et doux, mes dents sont super propres. Je n'ai jamais eu des dents aussi propres ! Je la recommande vivement !<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
         "item_zCBUby": {
           "type": "item",
           "settings": {
@@ -169,19 +182,6 @@
             "link_style": "link"
           }
         },
-        "item_JGrQFV": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/169412229-1744023666.1068.jpg",
-            "column_size": "3",
-            "title": "Amanda.O",
-            "heading_tag": "h4",
-            "content": "<p>Brosse à dents fantastique ! J'étais sceptique au début, mais avec des mouvements lents et doux, mes dents sont super propres. Je n'ai jamais eu des dents aussi propres ! Je la recommande vivement !<br/><br/></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
         "item_Ug7kmR": {
           "type": "item",
           "settings": {
@@ -199,9 +199,9 @@
       "block_order": [
         "item_pBbQfx",
         "item_Qxi3fN",
+        "item_JGrQFV",
         "item_zCBUby",
         "item_RcpC8P",
-        "item_JGrQFV",
         "item_Ug7kmR"
       ],
       "name": "Multi-column",
