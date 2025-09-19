@@ -185,10 +185,11 @@
         "item_pBbQfx": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/169412255-1744023670.6407.jpg",
             "column_size": "3",
-            "title": "Column title",
+            "title": "Marine.A",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Ce truc est vraiment ingénieux. J'avais des doutes sur le design, mais l'ingénierie est logique. Je l'utilise depuis 3 mois sans aucun problème.<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -197,10 +198,11 @@
         "item_zCBUby": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/169412311-1744023678.9104.jpg",
             "column_size": "3",
-            "title": "Column title",
+            "title": "Chloé.B",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>bonne brosse pour un usage quotidien. le silicone est agréable et n'irrite pas mes gencives comme le font parfois les poils. s'adapte bien même à ma petite bouche.<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
