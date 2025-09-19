@@ -60,14 +60,16 @@
         "logo_gxyBja": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/dentaly-logo.svg",
+            "logo_width": 300,
             "link": ""
           }
         },
         "logo_Hb79Lt": {
           "type": "logo",
           "settings": {
-            "logo_width": 120,
+            "logo": "shopify://shop_images/Cosmopolitan-Emblem.png",
+            "logo_width": 300,
             "link": ""
           }
         }
