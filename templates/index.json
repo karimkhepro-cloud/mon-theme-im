@@ -29,12 +29,70 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "fill",
-        "image": "shopify://shop_images/ChatGPT_Image_19_sept._2025_15_34_04.png",
+        "image": "shopify://shop_images/ChatGPT_Image_19_sept._2025_15_16_01_608d8831-756c-44d1-a3aa-75d81e358f6c.png",
+        "mobile_image": "shopify://shop_images/ChatGPT_Image_19_sept._2025_15_34_04.png",
         "mobile_text_position": "place-self-center-end text-end",
         "desktop_text_position": "sm:place-self-center-start sm:text-start",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
-        "overlay_opacity": 12
+        "overlay_opacity": 10
+      }
+    },
+    "logo_list_BgBGiW": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_bbUfpF": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/MDPI-Logo-Vector_svg.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_ahpjGQ": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/Logo-doctissimo_svg.png",
+            "logo_width": 300,
+            "link": ""
+          }
+        },
+        "logo_gxyBja": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        },
+        "logo_Hb79Lt": {
+          "type": "logo",
+          "settings": {
+            "logo_width": 120,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_bbUfpF",
+        "logo_ahpjGQ",
+        "logo_gxyBja",
+        "logo_Hb79Lt"
+      ],
+      "name": "Logo list",
+      "settings": {
+        "full_width": true,
+        "stack_mobile": false,
+        "title": "Reconnu par :",
+        "content": "",
+        "text_alignment": "start",
+        "items_per_row": 5,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "logo_item_background": "",
+        "logo_item_border": ""
       }
     },
     "faq": {
@@ -92,6 +150,7 @@
   },
   "order": [
     "image_with_text_overlay_8gHxgM",
+    "logo_list_BgBGiW",
     "faq"
   ]
 }
