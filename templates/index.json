@@ -169,19 +169,6 @@
     "multi_column_CdR6eR": {
       "type": "multi-column",
       "blocks": {
-        "item_Qxi3fN": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/169412234-1744023667.6066.jpg",
-            "column_size": "3",
-            "title": "Enzo.P",
-            "heading_tag": "h4",
-            "content": "<p>Excellente innovation, elle me fait gagner beaucoup de temps et me permet d'effectuer plusieurs tâches à la fois tout en obtenant des dents propres et blanches !<br/><br/></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
         "item_pBbQfx": {
           "type": "item",
           "settings": {
@@ -190,6 +177,19 @@
             "title": "Marine.A",
             "heading_tag": "h4",
             "content": "<p>Ce truc est vraiment ingénieux. J'avais des doutes sur le design, mais l'ingénierie est logique. Je l'utilise depuis 3 mois sans aucun problème.<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Qxi3fN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/169412234-1744023667.6066.jpg",
+            "column_size": "3",
+            "title": "Enzo.P",
+            "heading_tag": "h4",
+            "content": "<p>Excellente innovation, elle me fait gagner beaucoup de temps et me permet d'effectuer plusieurs tâches à la fois tout en obtenant des dents propres et blanches !<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -207,18 +207,60 @@
             "link_text": "",
             "link_style": "link"
           }
+        },
+        "item_RcpC8P": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/169412274-1744023673.4998.jpg",
+            "column_size": "3",
+            "title": "Sandrine.S",
+            "heading_tag": "h4",
+            "content": "<p>Je l'utilise depuis quelques semaines maintenant et je peux dire avec plaisir que j'en suis satisfaite.<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_JGrQFV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/169412229-1744023666.1068.jpg",
+            "column_size": "3",
+            "title": "Amanda.O",
+            "heading_tag": "h4",
+            "content": "<p>Brosse à dents fantastique ! J'étais sceptique au début, mais avec des mouvements lents et doux, mes dents sont super propres. Je n'ai jamais eu des dents aussi propres ! Je la recommande vivement !<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Ug7kmR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/169412225-1744023662.8095.jpg",
+            "column_size": "3",
+            "title": "Evan.B",
+            "heading_tag": "h4",
+            "content": "<p>utilisez-le tous les matins. fait gagner du temps et nettoie bien. le silicone a bien résisté au cours du mois dernier sans aucun signe d'usure.<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
         }
       },
       "block_order": [
-        "item_Qxi3fN",
         "item_pBbQfx",
-        "item_zCBUby"
+        "item_Qxi3fN",
+        "item_zCBUby",
+        "item_RcpC8P",
+        "item_JGrQFV",
+        "item_Ug7kmR"
       ],
       "name": "Multi-column",
       "settings": {
         "full_width": true,
         "stack_on_mobile": false,
-        "gap": "medium",
+        "gap": "small",
         "text_alignment": "start",
         "subheading": "About",
         "title": "Featured content",
