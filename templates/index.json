@@ -316,7 +316,7 @@
         "full_width": true,
         "product": "brush-u-pro",
         "desktop_media_width": 50,
-        "desktop_media_layout": "carousel_thumbnails_left",
+        "desktop_media_layout": "grid_one",
         "mobile_media_size": "contained",
         "mobile_carousel_control": "free_scroll",
         "enable_video_autoplay": true,
