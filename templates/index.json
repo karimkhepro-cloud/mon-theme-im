@@ -90,7 +90,7 @@
       ],
       "name": "Logo list",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "stack_mobile": false,
         "title": "Vu sur :",
         "content": "",
