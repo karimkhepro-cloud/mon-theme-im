@@ -15,13 +15,21 @@
         "heading_4bNRKy": {
           "type": "heading",
           "settings": {
-            "text": "Ayez un sourire éclatant en 30 secondes chrono",
+            "text": "Un sourire éclatant en 30 secondes chrono",
             "heading_tag": "h1"
+          }
+        },
+        "heading_HnUAtq": {
+          "type": "heading",
+          "settings": {
+            "text": "Révolutionnez votre brossage avec la brosse à dent électrique BrushU PRO.",
+            "heading_tag": "h5"
           }
         }
       },
       "block_order": [
-        "heading_4bNRKy"
+        "heading_4bNRKy",
+        "heading_HnUAtq"
       ],
       "name": "Image with text overlay",
       "settings": {
@@ -218,6 +226,110 @@
         "text_color": ""
       }
     },
+    "featured_product_j3XVeh": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_NTp8Va": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_hdUNg7": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h2"
+          }
+        },
+        "badges_fFyMtm": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_Acgkmz": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_GaUUbj": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_mDrTbK": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_d3neE8": {
+          "type": "description",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "collapse_content": false
+          }
+        },
+        "variant_picker_rxVd7k": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_WKRffY": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_6x8UBg": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_GHzQDX": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_NTp8Va",
+        "title_hdUNg7",
+        "badges_fFyMtm",
+        "price_Acgkmz",
+        "rating_GaUUbj",
+        "separator_mDrTbK",
+        "description_d3neE8",
+        "variant_picker_rxVd7k",
+        "quantity_selector_WKRffY",
+        "buy_buttons_6x8UBg",
+        "pickup_availability_GHzQDX"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "floating_dots",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -276,6 +388,7 @@
     "logo_list_BgBGiW",
     "image_with_text_overlay_DPfE7U",
     "multi_column_CdR6eR",
+    "featured_product_j3XVeh",
     "faq"
   ]
 }
