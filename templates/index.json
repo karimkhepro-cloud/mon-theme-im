@@ -113,7 +113,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "fill",
-        "image": "shopify://shop_images/Dents_blanches_en_moins_d_une_minute.jpg",
+        "image": "shopify://shop_images/Dents_blanches_en_moins_d_une_minute_1.png",
         "mobile_image": "shopify://shop_images/Dents_blanches_en_moins_d_une_minute_1080_x_1900_px_1.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
