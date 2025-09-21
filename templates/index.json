@@ -36,7 +36,7 @@
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
-        "image_size": "fill",
+        "image_size": "auto",
         "image": "shopify://shop_images/ChatGPT_Image_19_sept._2025_15_57_08.png",
         "mobile_image": "shopify://shop_images/ChatGPT_Image_19_sept._2025_15_34_04.png",
         "mobile_text_position": "place-self-center-end text-end",
