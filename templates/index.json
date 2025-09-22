@@ -434,22 +434,22 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Comment l'utiliser ?",
+            "content": "<p>Pour utilisez le BrushU PRO c'est très simple :</p><ol><li>Appliquer le dentifrice – Répartir une quantité normale uniformément sur l’embout buccal.</li><li>Placez l'embout buccal dans votre bouche</li><li>Cliquez sur le bouton Démarrer et commencez votre prochaine routine matinale.</li><li><strong>(FACULTATIF)</strong> Utilisez le mode Spa pour blanchir vos dents par la suite.</li></ol><p><strong>✓</strong> Un manuel d'utilisation est inclus dans votre colis.</p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "À quelle fréquence dois-je remplacer l’embout buccal ?",
+            "content": "<p>Pour une hygiène et des performances optimales, nous recommandons de remplacer l'embout en silicone tous les 3 à 4 mois, tout comme une tête de brosse à dents traditionnelle.<br/><br/></p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Comment savoir quel mode utiliser ?",
+            "content": "<p>Vous pouvez basculer entre trois modes :</p><ul><li>Mode doux – Idéal pour les dents et les gencives sensibles.</li><li>Mode Power – Idéal pour un nettoyage en profondeur et l’élimination de la plaque dentaire.</li><li>Mode de blanchiment – ​​Utilise la technologie de lumière froide pour blanchir progressivement les dents.</li></ul>"
           }
         }
       },
@@ -462,13 +462,13 @@
         "full_width": false,
         "subheading": "",
         "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "content": "<p>Les questions qui reviennent souvent : </p>",
         "team_avatar_width": 160,
         "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
         "answer_time": "Average answer time: 24h",
         "button_text": "",
         "button_url": "",
-        "text_position": "start",
+        "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
