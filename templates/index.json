@@ -229,6 +229,12 @@
     "featured_product_j3XVeh": {
       "type": "featured-product",
       "blocks": {
+        "liquid_qDht8p": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{%- assign rating_value = 4.8 -%}\n{%- assign rating_count = 879 -%}\n{%- assign max_stars = 5 -%}\n{%- assign percent = rating_value | times: 20 -%}\n{%- assign rating_display = rating_value | replace: \".\", \",\" -%}\n\n{%- assign count_formatted = rating_count -%}  <!-- Pas besoin de séparateur pour < 1000 -->\n\n<div class=\"rating-wrap\" role=\"img\" aria-label=\"Note moyenne {{ rating_display }} sur {{ max_stars }} basée sur {{ count_formatted }} avis\">\n  <div class=\"stars\" aria-hidden=\"true\">\n    <div class=\"stars__bg\">\n      {% for i in (1..5) %}\n        <svg viewBox=\"0 0 24 24\" class=\"star\"><path d=\"M12 2.3l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.8 6.1 20.3l1.2-6.5L2.5 9.2l6.6-.9L12 2.3z\"/></svg>\n      {% endfor %}\n    </div>\n    <div class=\"stars__fg\" style=\"width: {{ percent }}%;\">\n      {% for i in (1..5) %}\n        <svg viewBox=\"0 0 24 24\" class=\"star\"><path d=\"M12 2.3l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.8 6.1 20.3l1.2-6.5L2.5 9.2l6.6-.9L12 2.3z\"/></svg>\n      {% endfor %}\n    </div>\n  </div>\n\n  <div class=\"rating-text\">\n    <strong>{{ rating_display }}/{{ max_stars }}</strong>\n    <span class=\"sep\">·</span>\n    <span>{{ count_formatted }} avis</span>\n  </div>\n</div>\n\n{%- comment -%} Bloc JSON-LD SEO pour Google {%- endcomment -%}\n<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Product\",\n  \"name\": {{ product.title | json }},\n  \"image\": {{ product.featured_image | image_url | json }},\n  \"sku\": {{ product.selected_or_first_available_variant.sku | json }},\n  \"offers\": {\n    \"@type\": \"Offer\",\n    \"priceCurrency\": {{ cart.currency.iso_code | json }},\n    \"price\": {{ product.selected_or_first_available_variant.price | money_without_currency | replace: ',', '.' | json }},\n    \"availability\": \"{% if product.available %}https://schema.org/InStock{% else %}https://schema.org/OutOfStock{% endif %}\"\n  },\n  \"aggregateRating\": {\n    \"@type\": \"AggregateRating\",\n    \"ratingValue\": {{ rating_value | json }},\n    \"reviewCount\": {{ rating_count | json }},\n    \"bestRating\": \"5\",\n    \"worstRating\": \"1\"\n  }\n}\n</script>\n\n<style>\n  .rating-wrap{\n    display:inline-flex;\n    align-items:center;\n    gap:.4rem;\n    font-size:16px; /* texte légèrement plus grand */\n    line-height:1.2;\n    font-family:inherit;\n    color:#1a1a1a;\n    margin-bottom:.75rem;\n  }\n  .stars{position:relative;display:inline-block;height:24px}\n  .stars__bg,.stars__fg{display:flex;gap:3px}\n  .stars__bg{color:#e0d8cf}\n  .stars__fg{color:#f9b300;position:absolute;inset:0;overflow:hidden;white-space:nowrap}\n  .star{width:24px;height:24px;fill:currentColor;flex:0 0 auto}\n  .rating-text strong{font-weight:600}\n  .rating-text .sep{opacity:.5;margin:0 .25rem}\n</style>"
+          }
+        },
         "vendor_NTp8Va": {
           "type": "vendor",
           "settings": {}
@@ -299,6 +305,7 @@
         }
       },
       "block_order": [
+        "liquid_qDht8p",
         "vendor_NTp8Va",
         "title_hdUNg7",
         "badges_fFyMtm",
