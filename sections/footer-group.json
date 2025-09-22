@@ -100,9 +100,9 @@
         "links": {
           "type": "links",
           "settings": {
-            "menu": "footer",
+            "menu": "menu-footer",
             "show_menu_title": true,
-            "menu_title": ""
+            "menu_title": "Liens utiles"
           }
         },
         "text": {
