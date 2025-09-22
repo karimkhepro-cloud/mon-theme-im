@@ -91,7 +91,7 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
-            "image_width": 150,
+            "image_width": 100,
             "heading_size": "h3",
             "title": "Inscrivez-vous pour découvrir nos nouveautés et profiter d’offre personnalisées",
             "content": ""
