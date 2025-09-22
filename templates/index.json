@@ -297,7 +297,7 @@
         "image_dk9HTF": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/BrushU_2.png",
+            "image": "shopify://shop_images/BrushU_1500_x_200_px.png",
             "alignment": "start",
             "max_width": 500
           }
