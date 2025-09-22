@@ -261,6 +261,14 @@
             "liquid": "{%- comment -%}\n  🔴 URGENCE STOCK — Badge avec lumière clignotante\n  - Collez ce bloc dans une section \"Custom Liquid\"\n  - Par défaut : affiche la quantité du variant sélectionné\n  - Si vous voulez forcer \"4 restants\" partout, mettez force_qty = 4\n{%- endcomment -%}\n\n{%- assign force_qty = blank -%}  \n{%- assign v = product.selected_or_first_available_variant -%}\n{%- assign qty = v.inventory_quantity | default: 4 -%}\n{%- if force_qty != blank -%}{%- assign qty = force_qty -%}{%- endif -%}\n\n{%- if qty > 0 -%}\n<div class=\"stock-alert\" data-stock-badge data-product-id=\"{{ product.id }}\">\n  <span class=\"pulse-dot\" aria-hidden=\"true\"></span>\n  <span class=\"stock-text\">\n    En stock : <strong><span data-stock-qty>{{ qty }}</span> restant<span data-pluriel>{% if qty > 1 %}s{% endif %}</span></strong>\n  </span>\n</div>\n{%- endif -%}\n\n<style>\n  /* ---- Styles du badge ---- */\n  .stock-alert{\n    display:inline-flex; align-items:center; gap:.5rem;\n    padding:.5rem .75rem; border:1px solid #ffb7b7; border-radius:.5rem;\n    background:#ffe8e8; color:#8b0000; font:600 14px/1.2 inherit;\n    box-shadow:0 0 0 1px rgba(255,0,0,.04) inset;\n  }\n  .stock-alert .stock-text strong{font-weight:700}\n\n  /* ---- Point lumineux clignotant ---- */\n  .pulse-dot{\n    width:10px; height:10px; border-radius:50%;\n    background:#d10000; position:relative; display:inline-block;\n    animation:blink 1.2s infinite;\n    box-shadow:0 0 0 0 rgba(209,0,0,.7);\n  }\n  .pulse-dot::after{\n    content:\"\"; position:absolute; inset:-6px; border-radius:inherit;\n    background:radial-gradient(circle, rgba(255,0,0,.35) 0, rgba(255,0,0,0) 70%);\n    animation:pulse 1.2s infinite;\n  }\n  @keyframes blink{\n    0%,100%{opacity:1}\n    50%{opacity:.35}\n  }\n  @keyframes pulse{\n    0%{transform:scale(.9); opacity:.6}\n    70%{transform:scale(1.25); opacity:0}\n    100%{transform:scale(1.25); opacity:0}\n  }\n\n  /* Variante compacte (facultatif) */\n  .product-form .stock-alert{ margin:.5rem 0 0 }\n</style>\n\n{%- comment -%}\n  🔁 Mise à jour auto quand on change de variante\n  - Compatible Dawn & thèmes qui déclenchent \"variant:change\"\n  - Sinon, on écoute aussi le select[name=\"id\"]\n{%- endcomment -%}\n<script>\n  (function(){\n    const badge = document.querySelector('[data-stock-badge]');\n    if(!badge) return;\n\n    // Carte des quantités par variant\n    const variants = {{ product.variants | json }};\n    const qtyMap = {};\n    variants.forEach(v => { qtyMap[v.id] = (v.inventory_quantity ?? 0); });\n\n    const qtyEl = badge.querySelector('[data-stock-qty]');\n    const plurielEl = badge.querySelector('[data-pluriel]');\n\n    function updateQty(variantId){\n      {% if force_qty != blank %}\n        var q = {{ force_qty | json }};\n      {% else %}\n        var q = qtyMap[variantId] ?? 0;\n      {% endif %}\n      if(qtyEl){\n        qtyEl.textContent = q;\n        if(plurielEl) plurielEl.textContent = (q > 1 ? 's' : '');\n      }\n      // Masquer si rupture\n      badge.style.display = (q > 0) ? 'inline-flex' : 'none';\n    }\n\n    // 1) Événement \"variant:change\" (Dawn)\n    document.addEventListener('variant:change', function(e){\n      const v = e?.detail?.variant;\n      if(v && v.id){ updateQty(v.id); }\n    });\n\n    // 2) Fallback: écoute du select de variantes\n    const select = document.querySelector('select[name=\"id\"]');\n    if(select){\n      select.addEventListener('change', function(){\n        const id = Number(this.value);\n        if(id){ updateQty(id); }\n      });\n    }\n  })();\n</script>"
           }
         },
+        "image_7PtrnX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_6.png",
+            "alignment": "start",
+            "max_width": 500
+          }
+        },
         "rating_GaUUbj": {
           "type": "rating",
           "settings": {
@@ -325,6 +333,7 @@
         "badges_fFyMtm",
         "price_Acgkmz",
         "liquid_QwEykk",
+        "image_7PtrnX",
         "rating_GaUUbj",
         "description_d3neE8",
         "variant_picker_rxVd7k",
