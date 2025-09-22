@@ -324,6 +324,14 @@
         "pickup_availability_GHzQDX": {
           "type": "pickup_availability",
           "settings": {}
+        },
+        "image_zNcedL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Paiement_securise.png",
+            "alignment": "center",
+            "max_width": 500
+          }
         }
       },
       "block_order": [
@@ -341,7 +349,8 @@
         "separator_mDrTbK",
         "image_dk9HTF",
         "buy_buttons_6x8UBg",
-        "pickup_availability_GHzQDX"
+        "pickup_availability_GHzQDX",
+        "image_zNcedL"
       ],
       "name": "Featured product",
       "settings": {
