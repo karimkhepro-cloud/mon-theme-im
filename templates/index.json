@@ -451,12 +451,20 @@
             "title": "Comment savoir quel mode utiliser ?",
             "content": "<p>Vous pouvez basculer entre trois modes :</p><ul><li>Mode doux – Idéal pour les dents et les gencives sensibles.</li><li>Mode Power – Idéal pour un nettoyage en profondeur et l’élimination de la plaque dentaire.</li><li>Mode de blanchiment – ​​Utilise la technologie de lumière froide pour blanchir progressivement les dents.</li></ul>"
           }
+        },
+        "item_yFh4yc": {
+          "type": "item",
+          "settings": {
+            "title": "30 secondes c'est pas trop court ?",
+            "content": "<p>Notre brosse a été spécialement conçue pour un nettoyage <strong>ultra-efficace</strong> grâce à deux éléments clés :</p><ul><li><br/><strong>48 000 vibrations par minute</strong> qui assurent un nettoyage bien plus puissant et rapide qu’une brosse traditionnelle.<br/></li><li><br/>Une <strong>couverture à 360°</strong> : l’embout entoure toutes vos dents, à l’avant comme à l’arrière, et les nettoie simultanément.<br/></li></ul><p>Là où une brosse manuelle ou électrique classique se concentre sur une seule zone à la fois, notre technologie agit sur <strong>l’ensemble de la dentition en même temps</strong>. Résultat : un nettoyage complet et en profondeur en seulement 30 secondes.</p>"
+          }
         }
       },
       "block_order": [
         "166442457738b23caf-0",
         "166442457738b23caf-1",
-        "166442457738b23caf-2"
+        "166442457738b23caf-2",
+        "item_yFh4yc"
       ],
       "settings": {
         "full_width": false,
