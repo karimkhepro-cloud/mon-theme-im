@@ -20,8 +20,8 @@
             "icon": "picto-box",
             "mobile_icon_width": 24,
             "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
+            "icon_background_type": "circle",
+            "icon_background": "#d4ca89",
             "icon_color": "",
             "title": "Livraison Gratuite",
             "content": ""
@@ -33,8 +33,8 @@
             "icon": "picto-customer-support",
             "mobile_icon_width": 24,
             "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
+            "icon_background_type": "circle",
+            "icon_background": "#d4ca89",
             "icon_color": "",
             "title": "Service client 7j/7",
             "content": ""
@@ -46,8 +46,8 @@
             "icon": "picto-return",
             "mobile_icon_width": 24,
             "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
+            "icon_background_type": "circle",
+            "icon_background": "#d4ca89",
             "icon_color": "",
             "title": "Satisfait ou Remboursé",
             "content": ""
@@ -59,8 +59,8 @@
             "icon": "picto-lock",
             "mobile_icon_width": 24,
             "icon_width": 24,
-            "icon_background_type": "none",
-            "icon_background": "",
+            "icon_background_type": "circle",
+            "icon_background": "#d4ca89",
             "icon_color": "",
             "title": "Paiement Sécurisé",
             "content": ""
