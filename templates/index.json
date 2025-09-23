@@ -508,6 +508,9 @@
     },
     "contact_DTwjnd": {
       "type": "contact",
+      "custom_css": [
+        ".section-class {padding-top: 20px !important; padding-bottom: 100px !important;}"
+      ],
       "name": "Contact form",
       "settings": {
         "full_width": true,
