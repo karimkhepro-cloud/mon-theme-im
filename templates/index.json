@@ -521,7 +521,7 @@
         "subheading": "Notre service client est disponible 7 jours sur 7. Nous tacherons de vous répondre dans les plus bref délai.",
         "title": "Une question ?",
         "content": "<p>Ecrivez-nous via le formulaire ci-dessous. </p>",
-        "text_position": "center",
+        "text_position": "start",
         "contact_form_size": "large",
         "background": "#ffffff",
         "background_gradient": "",
