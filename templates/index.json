@@ -88,6 +88,9 @@
         "logo_gxyBja",
         "logo_Hb79Lt"
       ],
+      "custom_css": [
+        ".section-class {padding-top: 20px !important; padding-bottom: 20px !important;}"
+      ],
       "name": "Logo list",
       "settings": {
         "full_width": true,
