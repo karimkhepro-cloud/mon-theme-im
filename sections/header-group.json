@@ -63,6 +63,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".section-class {padding-top: 20px !important; padding-bottom: 20px !important;}"
+      ],
       "settings": {
         "enable_sticky": false,
         "hide_on_scroll": true,
