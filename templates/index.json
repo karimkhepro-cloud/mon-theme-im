@@ -484,6 +484,9 @@
         "item_yFh4yc",
         "item_DXF7Bi"
       ],
+      "custom_css": [
+        ".section-class {padding-top: 20px !important; padding-bottom: 200px !important;}"
+      ],
       "settings": {
         "full_width": false,
         "subheading": "",
