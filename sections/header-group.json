@@ -69,7 +69,7 @@
         "logo": "shopify://shop_images/BrushU.png",
         "logo_max_width": 185,
         "logo_mobile_max_width": 105,
-        "menu": "main-menu",
+        "menu": "customer-account-main-menu",
         "sidebar_menu": "",
         "secondary_menu": "",
         "menu_open_trigger": "click",
